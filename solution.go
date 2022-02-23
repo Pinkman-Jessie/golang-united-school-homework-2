@@ -1,15 +1,15 @@
 package square
 
 import (
-	"fmt"
+	//"fmt"
 	"math"
-	"math/rand"
+	//"math/rand"
 )
 
-func main() {
-	fmt.Println("My favorite number is", rand.Intn(10))
-	//CalcSquare(5.0, 4)
-}
+// func main() {
+// 	fmt.Println("My favorite number is", rand.Intn(10))
+// 	//CalcSquare(5.0, 4)
+// }
 // Define custom int type to hold sides number and update CalcSquare signature by replacing #yourTypeNameHere#
 
 // Define constants to represent 0, 3 and 4 sides.  Test uses mnemos: SidesTriangle(==3), SidesSquare(==4), SidesCircle(==0)
