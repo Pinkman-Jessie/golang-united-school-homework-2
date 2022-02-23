@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"math/rand"
 )
 
 func main() {
 	fmt.Println("My favorite number is", rand.Intn(10))
-	CalcSquare(5.0, 4)
+	//CalcSquare(5.0, 4)
 }
 // Define custom int type to hold sides number and update CalcSquare signature by replacing #yourTypeNameHere#
 
@@ -29,7 +30,7 @@ func CalcSquare(sideLen float64, sidesNum customtype) (res float64) {
 	} else if sidesNum == SidesSquare {
 		res = sideLen * sideLen
 	} else if sidesNum == SidesCircle {
-		res = 3.14 * (sideLen * sideLen)
+		res = math.Pi * (sideLen * sideLen)
 	}
 	//fmt.Println("yooo",res)
 	return res
