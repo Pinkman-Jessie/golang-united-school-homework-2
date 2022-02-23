@@ -26,6 +26,10 @@ func CalcSquare(sideLen float64, sidesNum customtype) (res float64) {
 	if sidesNum == SidesSquare {
 
 		res = sideLen * sideLen
+	} else if sidesNum == SidesTriangle {
+		res = sideLen * sideLen
+	} else if sidesNum == SidesCircle {
+		res = 3.14 * (sideLen * sideLen)
 	}
 	fmt.Println("yooo",res)
 	return res
