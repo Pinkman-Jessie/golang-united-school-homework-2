@@ -33,6 +33,6 @@ func CalcSquare(sideLen float64, sidesNum customtype) (res float64) {
 		res = math.Pi * (sideLen * sideLen)
 	}
 	//fmt.Println("yooo",res)
-	return res
+	return
 	
 }
