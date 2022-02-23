@@ -31,6 +31,8 @@ func CalcSquare(sideLen float64, sidesNum customtype) (res float64) {
 		res = sideLen * sideLen
 	} else if sidesNum == SidesCircle {
 		res = math.Pi * (sideLen * sideLen)
+	} else {
+		res = 0
 	}
 	//fmt.Println("yooo",res)
 	return
